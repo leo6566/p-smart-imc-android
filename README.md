@@ -1,1 +1,0 @@
-# p-smart-imc-android
