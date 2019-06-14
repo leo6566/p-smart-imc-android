@@ -1,0 +1,3 @@
+CREATE TABLE nome  ( id_nome INTEGER PRIMARY KEY AUTOINCREMENT,nome TEXT );
+
+ CREATE TABLE imc  ( id_imc INTEGER PRIMARY KEY AUTOINCREMENT,peso double,altura double,imc double, CONSTRAINT fk_nome FOREIGN KEY (id_nome) REFERENCES nome(id_nome))");
